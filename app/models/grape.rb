@@ -1,6 +1,6 @@
 class Grape < ActiveRecord::Base
   def cut
-    "cut cut!"
+    'cut cut!'
   end
 
   def slice
@@ -11,6 +11,5 @@ class Grape < ActiveRecord::Base
   end
 
   def hoge
-    
   end
 end

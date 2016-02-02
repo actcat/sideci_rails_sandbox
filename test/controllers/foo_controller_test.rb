@@ -1,3 +1,3 @@
-begin 
+begin
 rescue Exception
 end
