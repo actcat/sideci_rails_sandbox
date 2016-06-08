@@ -1,0 +1,5 @@
+linter:
+  rails_best_practices:
+    options:
+      test: true
+      exclude: 'app/'
