@@ -6,5 +6,6 @@ AllCops:
 Rails:
   Enabled: true
 
-inherit_gem:
-  onkcop: "config/rubocop.yml"
+inherit_from:
+  - https://github.com/actcat/sideci_rails_sandbox/blob/test/rubocop/.rubocop.yml
+  - ../rubocop_conf/.rubocop.yml
