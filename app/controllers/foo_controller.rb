@@ -3,6 +3,7 @@ class FooController < ActionController::Base
     user = User.first(:conditions => ("username = '#{params[:username]}'"))
     user = User.first(:conditions => ("username = '#{params[:username]}'"))
     user = User.first(:conditions => ("username = '#{params[:username]}'"))
+    user = User.first(:conditions => ("username = '#{params[:username]}'"))
     if user.blank?
       render text: user.username
       return
