@@ -1,0 +1,23 @@
+linter:
+  brakeman:
+    root_dir: "rails_app"
+  bundler_outdated:
+    root_dir: "rails_app"
+  rubocop:
+    root_dir: "rails_app"
+  eslint:
+    root_dir: "rails_app"
+  jshint:
+    root_dir: "rails_app"
+  coffeelint:
+    root_dir: "rails_app"
+  haml_lint:
+    root_dir: "rails_app"
+  rails_best_practices:
+    root_dir: "rails_app"
+  reek:
+    root_dir: "rails_app"
+  scss_lint:
+    root_dir: "rails_app"
+  tslint:
+    root_dir: "rails_app"
