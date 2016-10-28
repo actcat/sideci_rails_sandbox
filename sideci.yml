@@ -1,5 +1,6 @@
 linter:
-  rails_best_practices:
-    options:
-      test: true
-      exclude: 'app/'
+  ignore_path:
+    - vendor
+    - app/assets/javascripts/*.min.js
+    - /etc/fstab
+    - app/../../*
