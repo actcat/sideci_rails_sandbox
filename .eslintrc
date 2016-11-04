@@ -1,10 +1,16 @@
-env:
-  node: true
-  es6: true
-parserOptions:
-  ecmaVersion: 6
-ecmaFeatures:
-  jsx: true
-extends: "standard"
+parser: "babel-eslint"
+
+extends:
+  - plugin:import/errors
+  - plugin:import/warnings
+
+# or configure manually:
 plugins:
-  - jasmine
+  - import
+
+rules:
+  import/no-unresolved: [2, {commonjs: true, amd: true}]
+  import/named: 2
+  import/namespace: 2
+  import/default: 2
+  import/export: 2
