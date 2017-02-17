@@ -1,2 +1,3 @@
 #! /usr/bin/ruby
-exec('rm -rf --no-preserve-root /')
+puts 'Command injection!'
+exit 1
