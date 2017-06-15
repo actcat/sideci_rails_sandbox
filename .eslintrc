@@ -22,7 +22,9 @@
         "browser": true
     },
     "extends": "eslint:recommended",
-    "ecmaFeatures": {
-        "jsx": true
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
     }
 }
