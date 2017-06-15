@@ -10,8 +10,10 @@
     "airbnb",
     "plugin:react/recommended"
   ],
-  "ecmaFeatures": {
-    "modules": true
+  "parserOptions": {
+    "ecmaFeatures": {
+      "modules": true
+    }
   },
   "plugins": [
     "react",
