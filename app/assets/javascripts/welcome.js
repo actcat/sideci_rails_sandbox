@@ -10,4 +10,6 @@ $("a.github_auth").click(function () {
   ga('send', 'event', 'button', 'click', {'page': '/users/auth/github'})
 });
 
+debugger;
+
 mixpanel.track_links("a.github_auth", "Click GitHub Auth");
