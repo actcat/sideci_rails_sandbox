@@ -1,0 +1,4 @@
+linter:
+  coffeelint:
+    options:
+      file: 'mycoffeelint.json'
